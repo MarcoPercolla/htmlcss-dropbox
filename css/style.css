@@ -8,6 +8,11 @@ body{
     font-family: sans-serif;
 }
 
+.W70P{
+    width: 70%;
+    margin: 0 auto;
+}
+
 .W80P{
     width: 80%;
     margin: 0 auto;
@@ -17,9 +22,28 @@ body{
     width: 100%;
 }
 
+
 header{
     background-color: rgb(225, 255, 0);
     height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+
+}
+
+.headsection {
+    background-color: red;
+    display: flex;
+    align-items: center;
+
+}
+
+.headelement {
+    margin:0 15px;
 }
 
 footer {
@@ -31,3 +55,35 @@ section {
     border:solid 5px black;
     min-height: 40vh;
 }
+
+.jumbo {
+    background-color: aqua;
+    height: calc(50vh + 70px);
+    margin-top: 70px;
+    margin-bottom: 150px;
+    padding-top: 70PX;
+}
+
+.jumbocard {
+    background-color: green;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.jumbocontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    
+}
+
+.imgjumbo {
+    width: 70%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
