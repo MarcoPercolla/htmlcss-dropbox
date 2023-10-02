@@ -156,3 +156,22 @@ h1 {
 .contatticontainer > div > p {
     margin-top: 80px;
 }
+
+.partnercontainer{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.partnercontainer > img {
+    width: 55%;
+}
+
+.partnercontainer > div{
+    padding:20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
