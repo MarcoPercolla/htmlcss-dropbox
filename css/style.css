@@ -8,6 +8,38 @@ body{
     font-family: sans-serif;
 }
 
+.redbg{
+    background-color: red;  
+}
+
+.darkredbg {
+    background-color: rgb(170, 0, 0);
+}
+
+.yellowbg{
+    background-color: yellow;
+}
+
+.blubg {
+    background-color: blue;
+}
+
+.azulebg {
+    background-color: rgb(0, 200, 255);
+}
+
+.lightbg {
+    background-color: rgb(182, 198, 221);
+}
+
+.greenbg {
+    background-color: lightgreen;
+}
+
+.brownbg {
+    background-color: brown;
+}
+
 .W70P{
     width: 70%;
     margin: 0 auto;
@@ -85,11 +117,6 @@ header{
 
 .headelement {
     margin:0 15px;
-}
-
-footer {
-    background-color: aqua;
-    min-height: 30vh;
 }
 
 .headsection > a {
@@ -209,7 +236,7 @@ h6 > i{
 }
 
 .ratio{
-    margin:30px 0;
+    margin:90px 0;
 }
 
 .contatticontainer {
@@ -302,17 +329,28 @@ h6 > i{
     flex-wrap: wrap;
     width: 33vw;
     height: 33vw;
+    align-items: center;
 }
 
-.vetrina > img {
+.vetrina > div {
     width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vetrina img {
+    width: 50%;
+    filter: invert(1);
+    
 }
 
 .sponsorcard {
     width: calc(100% - 66vw);
     padding:20px;
     background-color: rgb(237, 237, 237);
-    height: 32vw;
+    height: 33vw;
     overflow: auto;
 }
 
@@ -358,10 +396,18 @@ h6 > i{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: solid gray 1px;
+    
 }
 
 i {
     padding: 20px;
+}
+
+footer {
+    background-color: #222222;
+    min-height: 30vh;
+    color:white
 }
 
 .footercontainer {
@@ -383,4 +429,18 @@ i {
 
 .footercard > a {
     margin:5px 0;
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+
+.lang hr {
+    border: 1px solid white;
+    width: 80px;
+    margin: 30px 0;
+}
+
+.lang p {
+    font-size: 10px;
+    padding-bottom:20px;
 }
