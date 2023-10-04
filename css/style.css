@@ -77,6 +77,12 @@ body{
 
 }
 
+.grigiobutton:hover{
+    border: dotted rgb(255, 102, 0) 8px;
+    background-color: inherit;
+    
+}
+
 .blubutton {
     background-color: #3a8fff; 
     border: none;
@@ -87,6 +93,12 @@ body{
     font-size: 16px;
 }
 
+.blubutton:hover{
+    background-color: #77b2ff;
+    
+    border: solid #3a8fff;
+}
+
 .greybutton {
     color: black;
     padding: 10px 32px;
@@ -94,6 +106,12 @@ body{
     text-decoration: none;
     font-size: 16px;
     background: none;
+}
+
+.greybutton:hover{
+    border: solid rgb(255, 102, 0) 2px;
+    background-color: #222222;
+    color: white
 }
 
 header{
@@ -223,7 +241,7 @@ h6 > i{
 
 
 .businesscard  .empty{
-    margin-bottom: 72px;
+    margin-bottom: 81px;
 }
 
 .business > h2 {
@@ -289,7 +307,7 @@ h6 > i{
 }
 
 .contatticard > .blubutton{
-    height: 36px;
+    height: 3em;
 }
 
 .partnercontainer{
