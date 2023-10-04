@@ -109,7 +109,7 @@ header{
 }
 
 .headsection {
-    
+    height: 100%;
     display: flex;
     align-items: center;
 
@@ -117,12 +117,19 @@ header{
 
 .headelement {
     margin:0 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .headsection > a {
     text-decoration: none;
     color:grey;
     font-weight: 100;
+}
+
+.headelement:hover {
+    border-bottom: solid 2px #222222c7;
 }
 
 .jumbo {
