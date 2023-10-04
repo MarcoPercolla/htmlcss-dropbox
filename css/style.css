@@ -160,7 +160,7 @@ header{
 
 .fa-arrow-down {
     font-size: 50px;
-    margin-top: 80px;
+    margin-top: 10%;
 } 
 
 .imgjumbo {
@@ -183,7 +183,7 @@ h1 {
 
 .businesscard {
     min-height: 60vh;
-    width: 26%;
+    width: 29%;
     
 }
 
@@ -277,6 +277,7 @@ h6 > i{
 .contatticard {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
      
 }
 
