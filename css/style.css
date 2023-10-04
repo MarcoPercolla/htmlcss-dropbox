@@ -440,11 +440,20 @@ h6 > i{
 }
 
 .questionline {
-    margin: 30px 0;
+    padding-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-top: solid gray 1px;   
+}
+
+.showmore {
+    display: none;
+    margin-bottom: 1rem;
+}
+
+.faqcard:hover .showmore{
+    display: block;
 }
 
 i {
